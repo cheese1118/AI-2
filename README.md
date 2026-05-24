@@ -1,13 +1,27 @@
-# 深宮秘檔・侍寢錄 PWA
+# 深宮秘檔・侍寢錄 PWA GitHub Pages 版
 
-## 上傳 GitHub Pages
-1. 建立一個 GitHub repository。
-2. 上傳本資料夾所有檔案：`index.html`、`manifest.json`、`service-worker.js`、`icons/`。
-3. 到 Settings → Pages，選擇 Branch：`main`，資料夾選 `/root`。
-4. 等 GitHub Pages 產生網址後，用手機 Safari / Chrome 打開。
-5. iPhone：分享 → 加入主畫面。Android：瀏覽器選單 → 安裝 App / 加到主畫面。
+## 上傳方式
+
+把本資料夾內所有檔案上傳到 GitHub repository 根目錄：
+
+- index.html
+- manifest.json
+- service-worker.js
+- icon-192.png
+- icon-512.png
+- icon-maskable-512.png
+- README.md
+
+GitHub Pages 開啟後，手機用 Safari / Chrome 打開 GitHub Pages 網址，再加入主畫面。
 
 ## 資料隱私
-本版是手機單機匯入版：沒有伺服器 API、沒有 fetch、沒有 localStorage。匯入的 JSON 只在當次瀏覽器頁面記憶體中使用。重新整理後需要重新匯入。
 
-注意：你把 HTML/PWA 程式上傳到 GitHub Pages，公開的是「程式本身」。你匯入的 21 人 JSON 不會被這個 PWA 自動上傳到 GitHub 或網路，除非你自己把 JSON 檔也上傳到 repository，或把資料貼到程式碼裡。
+本版本為手機單機匯入版：
+
+- 不連動伺服器 API
+- 不自動上傳 JSON 名冊
+- 不使用 localStorage 儲存名冊
+- 匯入資料只存在當次瀏覽器頁面記憶體
+- 重新整理後需要重新匯入
+
+請不要把你的名冊 JSON 上傳到 GitHub repository。
